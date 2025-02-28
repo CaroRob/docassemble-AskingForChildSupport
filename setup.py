@@ -44,9 +44,9 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.AskingForChildSupport',
-      version='0.0.1',
+      version='2025.02.28',
       description=('A docassemble extension.'),
-      long_description='# docassemble.AskingForChildSupport\n\nA docassemble extension.\n\n## Author\n\nCaroline Robinson, CRobinson@akcourts.gov\n\n',
+      long_description='# docassemble.AskingForChildSupport\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nCaroline Robinson, CRobinson@akcourts.gov\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Caroline Robinson',
       author_email='CRobinson@akcourts.gov',
@@ -54,7 +54,7 @@ setup(name='docassemble.AskingForChildSupport',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=[],
+      install_requires=['docassemble.AKA2JBranding', 'docassemble.AssemblyLine>=3.2.0'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/AskingForChildSupport/', package='docassemble.AskingForChildSupport'),
      )
