@@ -1,3 +1,5 @@
+Comment: |
+  upload child_support_action_plan_2024-08-08.docx and use in attachment
 ---
 include:
   - docassemble.AssemblyLine:assembly_line.yml
@@ -522,7 +524,7 @@ attachment:
   update references: True
   variable name: child_support_attachment[i]
   skip undefined: True
-  docx template file: dummy.docx
+  docx template file: child_support_action_plan_2024-08-08.docx
   # docx template file: child_support_action_plan.docx
   tagged pdf: True
 ---
@@ -532,5 +534,5 @@ attachment:
   update references: True
   variable name: docx_child_support_attachment
   skip undefined: True
-  docx template file: dummy.docx
+  docx template file: child_support_action_plan_2024-08-08.docx
   # docx template file: child_support_action_plan.docx
